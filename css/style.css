@@ -1,0 +1,132 @@
+
+/*common start*/
+:root{
+	--pop: "Poppins", sans-serif;
+	--rob: "Roboto", sans-serif;
+	--green: #21B573;
+	--black: #000000;
+	--white: #ffffff;
+	--red: #FD511A;
+}
+
+body{
+	font-family: var(--pop);
+	font-size: 16px;
+	font-weight: 400;
+	color: var(--black);
+}
+/*common end*/
+/*header start*/
+header{
+	padding: 17px 0;
+	background-color: #F0FFF0;
+}
+.c_nav{}
+.logo{}
+.nto:focus {
+    color: var(--red);
+}
+.menu{}
+.menu ul li a{
+	padding: 0 20px !important; 
+	font-size: 16px;
+    font-weight: 400;
+    color: var(--black) !important;
+    transition: .33s;
+}
+.menu ul li a:hover{
+	color: var(--red) !important;
+}
+.btn_cmn{
+	font-family: var(--rob);
+	font-weight: 400;
+	color: var(--white);
+	border: none;
+	background-color: var(--green);
+	border-radius: 33px;
+	transition: .33s;
+}
+.btn_search{
+	margin-left: 10px;
+	padding: 12px 28px;
+}
+.btn_cmn:hover{
+	background-color: var(--red);
+	color: var(--white);
+}
+
+.b_color{
+	background-color: #F0FFF0;
+}
+.btn_login{
+	padding: 8px 24px;
+}
+
+/*header end*/
+
+/*banner start*/
+.banner{
+	padding-bottom: 63px;
+	background-color: #F0FFF0;
+}
+.b_text{
+	padding-top: 70px;
+}
+.red{
+	color: var(--red);
+}
+.b_text h1{
+	font-size: 48px;
+    font-weight: 700;
+    color: var(--black);
+    line-height: 70px;
+}
+.b_lh{
+	line-height: 36px;
+}
+.btn_get{
+	padding: 12px 36px;
+}
+/*banner end*/
+
+/*features start*/
+.features{
+	margin: 42px 0 98px;
+}
+
+.f_item{
+	background-color: #F8FFFB;
+	border-radius: 10px;
+}
+.f_image{
+	padding: 55px 0 22px;
+}
+.f_text h3{
+	font-size: 24px;
+    font-weight: 500;
+    line-height: 36px;
+    color: var(--black);
+}
+.f_text p{
+	margin-bottom: 0;
+	padding-bottom: 50px;
+}
+.box_s{
+	-webkit-box-shadow: 0px 8px 20px 2px rgba(0,0,0,0.2);
+	-moz-box-shadow: 0px 8px 20px 2px rgba(0,0,0,0.2);
+	box-shadow: 0px 8px 20px 2px rgba(0,0,0,0.2);
+	background-color: var(--white);
+}
+/*features start*/
+
+/*service start*/
+.service{}
+.course{}
+.c_h{
+	font-size: 36px;
+    font-weight: 700;
+    color: var(--black);
+    line-height: 54px;
+}
+
+/*service end*/
